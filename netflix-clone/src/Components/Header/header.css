@@ -1,0 +1,38 @@
+.header-outer-container {
+  position: sticky;
+  top: 0;
+  display: flex;
+  background-color:rgb(20, 20, 20);
+  height: 10vh;
+  color: white;
+  transition: all 0.5s ease-in;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.nav-black {
+  background-color: rgb(20, 20, 20);
+}
+
+.header-container {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-left ul {
+  display: flex;
+  width: 140%;
+  justify-content: space-between;
+  list-style: none;
+  cursor: pointer;
+}
+.header-right ul {
+    width: 120%;
+  display: flex;
+  justify-content: space-between !important;
+  list-style: none;
+  cursor: pointer;
+}
