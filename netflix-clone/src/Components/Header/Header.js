@@ -9,16 +9,16 @@ const Header = () => {
   return (
     <>
     <div className='header-outer-container'>
-  <div className='header-container'>
+    <div className='header-container'>
     <div className='header-left'>
       <ul>
-        <li><img src={Netflixlogo} alt="Logo" width="90" /></li>
-        <li>Home</li>
-        <li>TV Shows</li>
-        <li>Movies</li>
-        <li>Latest</li>
-        <li>My List</li>
-        <li>Browse By Language</li>
+        <li><img src={Netflixlogo} alt="Logo" width="100"/></li>
+        <li className='list-item'>Home</li>
+        <li className='list-item'>TV Shows</li>
+        <li className='list-item'>Movies</li>
+        <li className='list-item'>Latest</li>
+        <li className='list-item'>My List</li>
+        <li className='list-item'>Browse By Language</li>
       </ul>
     </div>
     <div className='header-right'>

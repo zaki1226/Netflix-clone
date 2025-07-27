@@ -10,18 +10,17 @@
   justify-content: center;
   z-index: 1;
 }
-
-.nav-black {
-  background-color: rgb(20, 20, 20);
-}
-
 .header-container {
   width: 90%;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+.list-item {
+  padding-top: 0.94rem;
+  
 
+}
 .header-left ul {
   display: flex;
   width: 140%;
@@ -30,9 +29,9 @@
   cursor: pointer;
 }
 .header-right ul {
-    width: 120%;
+  width: 120%;
   display: flex;
-  justify-content: space-between !important;
+  justify-content: space-between; 
   list-style: none;
   cursor: pointer;
 }
